@@ -39,7 +39,7 @@ current_day = datetime.utcnow().date()
 async def check_scores():
     global alerted_games, current_day
 
-    url = "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard_/seasontype/2/group/50"
+    url = "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard"
 
     while True:
         try:
